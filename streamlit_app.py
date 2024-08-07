@@ -135,6 +135,9 @@ def call_llm_api(prompt_template, user_content):
 
 # Streamlit interface
 st.title("Business Analysis Assistant")
+st.set_page_config(
+    page_icon="📊",
+)
 
 # Initialize session state variables
 if 'data_summary' not in st.session_state:
