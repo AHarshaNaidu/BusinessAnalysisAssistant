@@ -134,7 +134,7 @@ def call_llm_api(prompt_template, user_content):
     return response.choices[0].message.content
 
 # Streamlit interface
-st.set_page_config(page_title="Business Analysis Assistant", page_icon="📊")
+st.set_page_config(page_title="Business Analysis Assistant", page_icon="📊🤖")
 st.title("Business Analysis Assistant")
 
 # Initialize session state variables
