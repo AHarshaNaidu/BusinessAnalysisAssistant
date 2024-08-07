@@ -134,7 +134,7 @@ def call_llm_api(prompt_template, user_content):
     return response.choices[0].message.content
 
 # Streamlit interface
-st.title("Business Analyst Assistant")
+st.title("Business Analysis Assistant")
 
 # Initialize session state variables
 if 'data_summary' not in st.session_state:
