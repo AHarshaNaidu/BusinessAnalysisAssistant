@@ -124,7 +124,7 @@ You are an AI assistant specialized in generating Wireframes and Mockups. Use th
 
 def call_llm_api(prompt_template, user_content):
     data = {
-        "model": "llama-3.3-70b-versatile",
+        "model": "llama-3.2-3b-preview",
         "messages": [
             {"role": "system", "content": prompt_template},
             {"role": "user", "content": user_content}
